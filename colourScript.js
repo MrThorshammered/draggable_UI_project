@@ -14,8 +14,6 @@ $("#box").on("click", function(){
 
 	$('#containment-wrapper').append(box)
 
-	console.log($(".resizable"));
-
 	$( function() {
     $( ".resizable" ).resizable();
     $( ".resizable").draggable({ containment: "#containment-wrapper", scroll: false });
