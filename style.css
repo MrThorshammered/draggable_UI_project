@@ -1,0 +1,56 @@
+body{
+	background-color: hotpink;
+}
+
+  .resizable {
+	   margin-top: 1%;
+	   margin-left: 1%; 
+	   width: 150px;
+	   height: 150px;
+	   padding: 0.5em;
+	   background: hotpink;
+	   display: inline-block;
+	   border: 1px solid black;
+
+
+    }
+
+  .resizable h3 { 
+
+	  	text-align: center;
+	  	margin: 0;
+
+  	 }
+
+  #controlPanel {
+  		display: inline-block;
+  		float: right;
+  	 	height: 1200px;
+  	 	width: 25%;
+  	 	border-left: 1px solid black;
+  	 }
+
+  #controlPanel h1 {
+  	  	text-align: center;
+  	  	vertical-align: center;
+  	  	margin: 0;
+  		width: 100%;  	
+  		border-bottom: 1px solid black;	
+  	  }
+
+  #header {
+  	border-bottom: 1px solid black;
+  	height: 5%;
+  }
+
+  #containment-wrapper{
+	margin-top: 3%;
+  	height: 900px;
+  	width: 70%;
+  	border: 1px solid black;
+
+  }
+
+  #box {
+  	margin: 1%;
+  }
